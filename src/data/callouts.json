@@ -1,0 +1,23 @@
+{
+	"name": "Appels par défaut",
+	"author": "Edgar Caudron",
+	"version": "1.0",
+	"callouts": [
+		{
+			"title": "Rixe",
+			"description": "",
+			"rarity": 1,
+			"services": [
+				"police",
+				"pompiers",
+			],
+			"amenities": "any",
+			"required": {
+				"police": "any",
+				"pompiers": {
+					"VSAV": 1
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,85 @@
+{
+	"name": "Services français par défaut",
+	"author": "Edgar Caudron",
+	"version": "1.0",
+	"services": [
+		{
+			"id": "pompiers",
+			"name": "Pompiers",
+			"units": [
+				{
+					"id": "pompiers_VSAV",
+					"name": "VSAV",
+					"description": "Véhicule de Secours et d'Assistance aux Victimes. Une ambulance qui intervient sur tous types d'accidents, de malaises, de blessures..."
+				},
+				{
+					"id": "pompiers_VSR",
+					"name": "VSR",
+					"description": "Véhicule de Secours Routier. Un véhicule qui intervient sur les accidents de la circulation (route, chemins de fer...) afin de baliser, protéger des incendies, désincarcérer les victimes..."
+				},
+				{
+					"id": "pompiers_EPA",
+					"name": "EPA",
+					"description": "Échelle Pivotante Automatique. Un véhicule équipé d'une échelle de 24 ou 30 mètres utilisé pour la lutte contre les incendies, les sauvetages..."
+				},
+				{
+					"id": "pompiers_FPT",
+					"name": "FPT",
+					"description": "Fourgon Pompe-Tonne. Véhicule de lutte contre les feux urbains."
+				},
+				{
+					"id": "pompiers_CCF",
+					"name": "CCF",
+					"description": "Camion-Citerne Feux de Forêts. Véhicule de lutte contre les feux de forêts."
+				},
+			]
+		},
+		{
+			"id": "police_municipale",
+			"name": "Police Municipale",
+			"units": [
+				{
+					"id": "pm_VL",
+					"name": "Patrouille",
+					"description": "Une unité pour assurer l'ordre public, relever les infractions routières..."
+				},
+				{
+					"id": "pm_fourriere",
+					"name": "Brigade Fourrière",
+					"description": "Une brigade chargée de récupérer les animaux errants afin de les confier aux services appropriés."
+				},
+				{
+					"id": "pm_canin",
+					"name": "Brigade Cynophile",
+					"description": "Des policiers accompagnés de chiens dressés pour la recherche de stupéfiants et de personnes disparues."
+				},
+				{
+					"id": "pm_nocturne",
+					"name": "Brigade de Sûreté Nocturne",
+					"description": "Une brigade chargée de lutter contre les incivilités et nuisances nocturnes troublant la tranquillité des riverains."
+				}
+			]
+		},
+		{
+			"id": "police_nationale",
+			"name": "Police Nationale",
+			"units": [
+				{
+					"id": "pn_VL",
+					"name": "Patrouille",
+					"description": "Une unité pour assurer l'ordre public, relever les infractions routières..."
+				},
+				{
+					"id": "pn_RAID",
+					"name": "Blindé du RAID",
+					"description": "Recherche Assistance Intervention Dissuasion. Un fourgon blindé utilisé pour des missions de patrouille, d'escorte, de sécurité, de contrôle de zone, de transport de personnel..."
+				},
+				{
+					"id": "pn_moto",
+					"name": "Brigade Motorisée",
+					"description": "Policiers à moto, chargés de lutter contre les infractions routières ou d'escorter d'autres véhicules."
+				},
+			]
+		},
+	]
+}
